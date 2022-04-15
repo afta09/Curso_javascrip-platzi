@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mate', serif;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+header {
+    background: #F9C38D ;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    
+     
+}
+
+.cabecera h1 {
+    color: #695643;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+   
+}
+
+.cabecera p {
+    color: #695643;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+     
+}
+
+.figuras {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: #C5C6C3;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+
+}
+
+/* CUADRADO */
+
+
+.cuadrado {
+    background: #E8E9E7;
+    margin-left: 10px;
+    width: 40%;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuadrado h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #E1952D;
+    margin-top: 15px;
+
+}
+
+.cuadrado img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.datoCuadrado {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.datoCuadrado label {
+    font-size: 20px;
+    font-family: 'Mate', serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.datoCuadrado input {
+    width: auto;
+    height: 25px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.datoCuadrado input:hover {
+    background:#CECCCA;
+}
+.datoCuadrado button {
+    background: #FFC06B ;
+    border-radius: 20px;
+    height: 25px;
+    margin: 5px;
+    color: #D35E0C;
+}
+
+.datoCuadrado button:hover {
+    background: #ED8D0B;
+    color: #AC6403;
+}
+
+
+
+
+/* 
+TRIANGULO */
+
+.triangulo {
+    background: #E8E9E7;
+    margin-left: 10px;
+    width: 40%;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:inherit;
+    align-items: center;
+}
+
+.triangulo h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #E1952D;
+    margin-top: 15px;
+
+}
+
+.triangulo img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.datoTriangulo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.datoTriangulo label {
+    font-size: 20px;
+    font-family: 'Mate', serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.conteiner-result {
+    display: inline-block;
+    text-align: center;
+
+}
+.datoTriangulo input {
+    width: auto;
+    height: 25px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.datoTriangulo input:hover {
+    background:#CECCCA;
+}
+
+.button-triangulo {
+    text-align: center;
+}
+.button-triangulo button {
+    background: #FFC06B ;
+    border-radius: 20px;
+    height: 25px;
+    width: 60%;
+    margin: 5px;
+    color: #D35E0C;
+    
+}
+
+.datoTriangulo button:hover {
+    background: #ED8D0B;
+    color: #AC6403;
+}
+
+/* 
+CIRCULO */
+
+.circulo {
+    background: #E8E9E7;
+    margin-left: 10px;
+    width: 60%;
+    height: 300px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:inherit;
+    align-items: center;
+}
+
+
+.circulo h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #E1952D;
+    margin-top: 15px;
+
+}
+
+.circulo img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.datoCirculo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.datoCirculo label {
+    font-size: 20px;
+    font-family: 'Mate', serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.conteiner-resultado {
+    display: inline-block;
+    text-align: center;
+
+}
+.datoCirculo input {
+    width: auto;
+    height: 25px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.datoCirculo input:hover {
+    background:#CECCCA;
+}
+
+.button-circulo {
+    text-align: center;
+}
+.button-circulo button {
+    background: #FFC06B ;
+    border-radius: 20px;
+    height: 25px;
+    width: 60%;
+    margin: 5px;
+    color: #D35E0C;
+    
+}
+
+.datoCirculo button:hover {
+    background: #ED8D0B;
+    color: #AC6403;
+}
+
+
+.circulo img {
+    height: 35%;
+    width: 20%;
+}

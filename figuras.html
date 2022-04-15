@@ -5,13 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras geométricas | curso platzi</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <h1>
-        Figuras geométricas
-    </h1>
 
+    <header class="cabecera">
+        <h1>
+            Cálculo de Figuras Geométricas
+        </h1>
+        <p>Diseño primer taller javascript</p>
+        
+        
+    </header>
+
+   <div class="figuras">
+        <div class="cuadrado">
+            <h2>Vamos a Calcular el Área y <br>
+                Perímetro de Un Cuadrado!</h2>
+            <img src="./imagenes/cuadrado.png" alt="Cuadrado">    
+            <form class="datoCuadrado">
+                <label for="inputCuadrado">
+                    Dime cuanto mide los <br>
+                    Lados del cuadrado
+                </label>
+
+                <input id="inputCuadrado" type="number" placeholder="Valor en Cm"/>
+                <button type="button" onclick="calcularPerimetrocuadrado()"> Cálcular Perímetro</button>
+                <button type="button" onclick="calcularAreacuadrado()"> Cálcular Area</button>
+
+            </form>
+        </div>
+        <div class="triangulo">
+            <h2>Vamos a Calcular el Área y <br>
+                Perímetro de Un Triangulo!</h2>
+            <img src="./imagenes/triangulo.png" alt="triangulo">    
+            <form class="datoTriangulo">
+                <label for="inputtriangulo">
+                    Dime cuanto mide los <br>
+                    Lados del Triangulo, su base <br>
+                    y su altura
+                </label>
+                <div class="conteiner-result">
+                    <input id="inputTriangulo1" type="number" placeholder="lado 1 en cm"/>
+                    <input id="inputTriangulo2" type="number" placeholder="lado 2 en cm"/>
+                    <input id="inputh" type="number" placeholder="altura en cm"/>
+                    <input id="inputb" type="number" placeholder="base en cm"/>
+                </div>
+                
+                <div class="button-triangulo">
+                    <button type="button" onclick="calcularPerimetrotriangulo()"> Cálcular Perímetro</button>
+                    <button type="button" onclick="calcularAreatriangulo()"> Cálcular Area</button>
+                </div>
+                
+
+            </form>
+        </div>
+        <div class="circulo">
+            <h2>Vamos a Calcular el Área y <br>
+                Perímetro de Un Circulo!</h2>
+            <img src="./imagenes/circulo.png" alt="circulo">    
+            <form class="datoCirculo">
+                <label for="inputcirculo">
+                    Dime cuanto mide el <br>
+                    radio del círculo!
+                </label>
+                <div class="conteiner-resultado">
+                    <input id="inputCirculo" type="number" placeholder="radio"/>
+                </div>
+                
+                <div class="button-circulo">
+                    <button type="button" onclick="calcularPerimetrocirculo()"> Cálcular Perímetro</button>
+                    <button type="button" onclick="calcularAreacirculo()"> Cálcular Area</button>
+                </div>
+                
+
+            </form>
+        </div>
+   </div>
+    
     <script src="./figuras.js"></script>
 </body>
 </html>
